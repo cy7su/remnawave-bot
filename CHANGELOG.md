@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2](https://github.com/cy7su/remnawave-bot/compare/v0.2.1...v0.2.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* align release-please config with v17 combined format ([3eb4c8e](https://github.com/cy7su/remnawave-bot/commit/3eb4c8e9220f69e2e4a6a7b623080da04bf39cb6))
+* restore separate release-please config and manifest files ([c9da60a](https://github.com/cy7su/remnawave-bot/commit/c9da60a9de819aab83ed10038f3ee662a48f4f05))
+
 ## [0.2.1](https://github.com/cy7su/remnawave-bot/compare/v0.2.0...v0.2.1) (2026-07-13)
 
 
