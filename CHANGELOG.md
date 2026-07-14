@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.2](https://github.com/cy7su/remnawave-bot/compare/v0.2.1...v0.2.2) (2026-07-14)
+
+
+### New Features
+
+* add mass unban by ID + unban all ([a6d838c](https://github.com/cy7su/remnawave-bot/commit/a6d838c57df0cac239e2a0d4be9692df20defbbe))
+* add restore deleted users button and handler ([0695490](https://github.com/cy7su/remnawave-bot/commit/06954901f1688cf4f52dc639ea2fa5e4f7850193))
+* require channel subscription before trial activation ([88fbc54](https://github.com/cy7su/remnawave-bot/commit/88fbc5482c2de525eab6ba1f079ec2523d81d806))
+
+
+### Bug Fixes
+
+* add missing quick_amounts field to PaymentMethodConfig model ([69be32c](https://github.com/cy7su/remnawave-bot/commit/69be32c688efc60b391a925de3d633c0d57617f4))
+* align release-please config with v17 combined format ([3eb4c8e](https://github.com/cy7su/remnawave-bot/commit/3eb4c8e9220f69e2e4a6a7b623080da04bf39cb6))
+* correct blocked_users count, add deleted_users to stats ([7344f88](https://github.com/cy7su/remnawave-bot/commit/7344f886bca093dc2ede6d407ec9362d63ecd927))
+* make 'I subscribed' button green (success) ([3aedf33](https://github.com/cy7su/remnawave-bot/commit/3aedf33c052bcf7f9582aa778d941a86391d1bc0))
+* reactivate RemnaWave subscriptions on user restore ([9ecb4ac](https://github.com/cy7su/remnawave-bot/commit/9ecb4acf2d0b4e989167ca44a8734adaf260e0d4))
+* restore Bot and AdminNotificationService imports for ban method ([eeb9fc0](https://github.com/cy7su/remnawave-bot/commit/eeb9fc0a591ebc34874498af1177a8aa83efc891))
+* restore separate release-please config and manifest files ([c9da60a](https://github.com/cy7su/remnawave-bot/commit/c9da60a9de819aab83ed10038f3ee662a48f4f05))
+
 ## [0.2.1](https://github.com/cy7su/remnawave-bot/compare/v0.2.0...v0.2.1) (2026-07-13)
 
 
