@@ -539,7 +539,15 @@ def get_admin_users_keyboard(language: str = 'ru') -> InlineKeyboardMarkup:
                         "<tg-emoji emoji-id='5881702736843511327'>⚠️</tg-emoji> Массовый бан",
                     ),
                     callback_data='admin_bulk_ban_start',
-                )
+                ),
+                make_button(
+                    text=_t(
+                        texts,
+                        'ADMIN_USERS_BULK_UNBAN',
+                        "<tg-emoji emoji-id='5881702736843511327'>✅</tg-emoji> Массовый разбан",
+                    ),
+                    callback_data='admin_bulk_unban_start',
+                ),
             ],
             [
                 make_button(
@@ -549,7 +557,15 @@ def get_admin_users_keyboard(language: str = 'ru') -> InlineKeyboardMarkup:
                         "<tg-emoji emoji-id='5909123362839335003'>🔕</tg-emoji> Заблокировавшие бота",
                     ),
                     callback_data='admin_blocked_users',
-                )
+                ),
+                make_button(
+                    text=_t(
+                        texts,
+                        'ADMIN_USERS_RESTORE_DELETED',
+                        "<tg-emoji emoji-id='5881702736843511327'>♻️</tg-emoji> Восстановить удаленных",
+                    ),
+                    callback_data='admin_restore_deleted',
+                ),
             ],
             [make_button(text=texts.BACK, callback_data='admin_submenu_users')],
         ]
