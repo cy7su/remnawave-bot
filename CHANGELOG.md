@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.2.0](https://github.com/cy7su/remnawave-bot/compare/v4.1.0...v4.2.0) (2026-08-12)
+
+
+### New Features
+
+* **grace:** mark panel user with GRACE tag while grace access is active ([970e570](https://github.com/cy7su/remnawave-bot/commit/970e57091a37d071046ed6d2378fcc3e2c4abbdb))
+
+
+### Bug Fixes
+
+* **backup:** send backup file to Telegram chat with caption ([66c7731](https://github.com/cy7su/remnawave-bot/commit/66c7731e0ccf552f57dbaed591ee875137e83a84))
+* **gift:** gifted subscription exits grace as active instead of being revoked ([61025f8](https://github.com/cy7su/remnawave-bot/commit/61025f867ee30e7ddd0a319a6864afa81de4ce4b))
+* **grace:** suppress subscription-expiring notifications during grace access ([101a64b](https://github.com/cy7su/remnawave-bot/commit/101a64b0063cb919b22422d13d76e68ece1f9ccb))
+* **locales:** reword traffic-limit and expired messages to mention grace access in all locales ([8968400](https://github.com/cy7su/remnawave-bot/commit/89684006df192115ef45d342dd923754390cd7da))
+* **locales:** reword traffic-limit message to mention grace access ([b541ecf](https://github.com/cy7su/remnawave-bot/commit/b541ecffdbe61e7c0cbcd732fc20237c516ce82c))
+
+
+### Refactoring
+
+* **grace:** drop GRACE_ACCESS_EXTERNAL_SQUAD_UUID configurable external squad ([18afe5f](https://github.com/cy7su/remnawave-bot/commit/18afe5f6fe466e810a1a811b631de10147c427a3))
+
 ## [4.1.0](https://github.com/cy7su/remnawave-bot/compare/v4.0.0...v4.1.0) (2026-08-10)
 
 
